@@ -41,8 +41,7 @@ include('../inc/header4.php');
             </div>
           </div>
           <div class="col-xl-3 col-lg-6">
-            <div class="card card-inverse card-info">
-              <div class="card-block bg-info">
+            <div class="card card-inverse card-info">              <div class="card-block bg-info">
                 <div class="rotate">
                   <i class="fa fa-twitter fa-5x"></i>
                 </div>
