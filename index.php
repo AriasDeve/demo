@@ -8,7 +8,7 @@ $db = $database->getConnection();
 $user = new User($db);
 
 if ($user->loggedIn()) {
-	header("Location: view/dashboard.php");
+	header("Location: view/books.php");
 }
 
 $loginMessage = '';
@@ -16,7 +16,7 @@ if (!empty($_POST["login"]) && !empty($_POST["email"]) && !empty($_POST["passwor
 	$user->email = $_POST["email"];
 	$user->password = $_POST["password"];
 	if ($user->login()) {
-		header("Location: view/dashboard.php");
+		header("Location: view/books.php");
 	} else {
 		$loginMessage = 'Usuario o Contraseña Inválidos';
 	}
@@ -67,7 +67,7 @@ include('inc/header4.php');
 
 			</div>
 			<?php
-			include("./footer.php");
+			
 			?>
 </body>
 
