@@ -22,6 +22,9 @@ include('../inc/header4.php');
 <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js"></script>
 <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css" />
 <script src="../js/books.js"></script>
+
+<link rel="stylesheet" href="./css/sider.css" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </head>
 
 <body>
@@ -165,7 +168,7 @@ include('../inc/header4.php');
 			</div>
 		</div>
 	</div>
-	
+	<script src="./js/sider.js"></script>
 </body>
 
 </html>
