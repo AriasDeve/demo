@@ -16,46 +16,6 @@
 				<li class="nav-item">
 					<a class="nav-link"><?php echo ucfirst($_SESSION["name"]); ?></a>
 				</li>
-
-
-				<div class="row mb-3">
-          <div class="col-xl-3 col-lg-6">
-            <div class="card card-inverse card-success">
-              <div class="card-block bg-success">
-                <div class="rotate">
-                  <i class="fa fa-user fa-5x"></i>
-                </div>
-                <h6 class="text-uppercase">Total de Libros</h6>
-                <h1 class="display-1"><a href="../view/books.php"><?php echo $book->getTotalBooks(); ?></a></h1>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-xl-3 col-lg-6">
-            <div class="card card-inverse card-warning">
-              <div class="card-block bg-warning">
-                <div class="rotate">
-                  <i class="fa fa-share fa-5x"></i>
-                </div>
-                <h6 class="text-uppercase">Libros Devueltos</h6>
-                <h1 class="display-1"><a href="../view/books.php"><?php echo $book->getTotalReturnedBooks(); ?></a></h1>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-lg-6">
-            <div class="card card-inverse card-danger">
-              <div class="card-block bg-danger">
-                <div class="rotate">
-                  <i class="fa fa-list fa-4x"></i>
-                </div>
-                <h6 class="text-uppercase">Libros Prestados</h6>
-                <h1 class="display-1"><a href="../view/issue_books.php"><?php echo $book->getTotalIssuedBooks(); ?></a></h1>
-              </div>
-            </div>
-          </div>
-        </div>
-
 			<?php } else { ?>
 			<?php } ?>
 		</ul>

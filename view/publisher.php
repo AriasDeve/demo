@@ -92,9 +92,7 @@ include('../inc/header4.php');
 		</div>
 	</div>
 
-	<?php
-	include("./footer.php");
-	?>
+	
 
 </body>
 

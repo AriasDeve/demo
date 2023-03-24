@@ -66,9 +66,7 @@ include('inc/header4.php');
 				</div>
 
 			</div>
-			<?php
 			
-			?>
 </body>
 
 
