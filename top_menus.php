@@ -7,7 +7,7 @@
 	<div class="navbar-collapse collapse" id="collapsingNavbar">
 		<ul class="navbar-nav">
 			<li class="nav-item active">
-				<h2><a class="nav-link" href="./view/dashboard.php">Gestión de Librería <span class="sr-only">CWEB</span></a></h2>
+				<h2><a class="nav-link" href="books.php">Gestión de Librería <span class="sr-only">CWEB</span></a></h2>
 			</li>
 			
 		</ul>
